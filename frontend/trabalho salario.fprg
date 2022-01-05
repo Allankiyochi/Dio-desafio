@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="Balian"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2021-12-11 07:11:17 "/>
+        <attribute name="created" value="QmFsaWFuO0JBTElBTi1QQzsyMDIxLTEyLTExOyIwNjo1OToyMCAiOzIzODU="/>
+        <attribute name="edited" value="QmFsaWFuO0JBTElBTi1QQzsyMDIxLTEyLTExOyIwNzoxMToxNyAiOzE7MjQ4OA=="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="funcionario" type="String" array="False" size=""/>
+            <declare name="janeiro, fevereiro, marco, abril, media" type="Real" array="False" size=""/>
+            <input variable="funcionario"/>
+            <input variable="janeiro"/>
+            <input variable="fevereiro"/>
+            <input variable="marco"/>
+            <input variable="abril"/>
+            <assign variable="media" expression="(janeiro+fevereiro+marco+abril)/4"/>
+            <output expression="media" newline="True"/>
+            <if expression="media&gt;=5000">
+                <then>
+                    <output expression="&quot;Parab&#233;ns voc&#234; ganhou 10% de b&#244;nus&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Voc&#234; foi despedido!!!!!!&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>

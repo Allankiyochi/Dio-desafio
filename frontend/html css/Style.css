@@ -1,0 +1,83 @@
+body {
+  background: rgb(207, 240, 248);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 900px;
+  margin: auto;
+}
+
+#titlle, .subtitlle, .ensinamento_titlle {
+  color: rgb(204, 42, 13);  
+  text-align: center;
+}
+
+#titlle {
+  font-size: 44px;
+  text-transform: uppercase;
+  
+}
+
+a {
+  text-decoration: underline;
+
+}
+
+.ensinamento_titlle {
+    font-size: 18px;
+    font-style: italic;
+    margin: 0;
+    margin-bottom: 15px;
+    
+}
+
+.post {
+  background: white;
+  padding: 15px;
+  border: 3px solid rgb(84, 233, 134);
+  margin: 8px;
+  border-radius: 10px;
+}
+
+.sonen {
+  margin: 0;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  text-align: justify;
+}
+
+.sonen1 {
+  margin: 0;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+  text-align:right;
+}
+
+.fig1 {
+  margin-bottom: 15px;
+  width: 180px;
+  height: 100px;
+  background: white;
+  padding: 15px;
+  border: none;
+  margin: 8px;
+  
+}
+
+.fig2 {
+  margin-bottom: 15px;
+  width: 180px;
+  height: 180px;
+}
+
+.lista_sem_ordem {
+  list-style-type: none;
+  padding-left: 15px;
+}
+
+.lista_ordenada{
+  list-style-type: upper-roman;
+  padding-left: 15px;
+}
+
+.lista_ordenada li a {
+  text-decoration: none;
+}
